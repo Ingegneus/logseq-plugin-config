@@ -1,0 +1,13 @@
+{
+  "VideoPosition": "-2em",
+  "IconTopPosition": "1em",
+  "IconLeftPosition": "-1em",
+  "KeyboardShortcut_Helium": "NA",
+  "KeyboardShortcut_PlayPause": "NA",
+  "KeyboardShortcut_SkipForward": "NA",
+  "KeyboardShortcut_SkipBackward": "NA",
+  "SkipDuration": "5",
+  "PlaybackSpeedIncrement": 0.25,
+  "DefaultPlaybackSpeed": "1.25",
+  "disabled": false
+}

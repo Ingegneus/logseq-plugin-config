@@ -1,0 +1,8 @@
+{
+  "defaultMapUrl": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+  "defaultZoom": 10,
+  "defaultLocation": "1.3521° N, 103.8198° E",
+  "thunderForestApi": "12345567891AbsbdA",
+  "mapboxApi": "12345567891AbsbdA",
+  "disabled": false
+}

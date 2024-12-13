@@ -1,0 +1,316 @@
+{
+  "triggerSettings": null,
+  "dollarTrigger": false,
+  "selectEdit": false,
+  "selectModifier": "<none>",
+  "formatSettings": null,
+  "preferDisplay": false,
+  "preferMultiline": false,
+  "smartFormat": false,
+  "mathliveSettings": null,
+  "inlinePreview": true,
+  "smartFence": true,
+  "smartMode": false,
+  "smartSuperscript": false,
+  "keybindings": [
+    {
+      "key": "ctrl+b",
+      "ifMode": "math",
+      "command": [
+        "insert",
+        "\\mathbf{#@}"
+      ]
+    },
+    {
+      "key": "ctrl+n",
+      "ifMode": "math",
+      "command": [
+        "insert",
+        "\\mathrm{#@}"
+      ]
+    },
+    {
+      "key": "ctrl+shift+9",
+      "command": [
+        "insert",
+        "\\left(#?\\right)"
+      ]
+    },
+    {
+      "key": "ctrl+[",
+      "command": [
+        "insert",
+        "\\left[#?\\right]"
+      ]
+    },
+    {
+      "key": "ctrl+{",
+      "command": [
+        "insert",
+        "\\left\\{#?\\right\\}"
+      ]
+    },
+    {
+      "key": "[Tab]",
+      "ifMode": "latex",
+      "command": "nextSuggestion"
+    },
+    {
+      "key": "shift+[Tab]",
+      "ifMode": "latex",
+      "command": "previousSuggestion"
+    },
+    {
+      "key": "[Return]",
+      "ifMode": "latex",
+      "command": [
+        "complete",
+        "accept-all"
+      ]
+    },
+    {
+      "key": "[Enter]",
+      "ifMode": "latex",
+      "command": [
+        "complete",
+        "accept-all"
+      ]
+    },
+    {
+      "key": "/",
+      "ifMode": "math",
+      "command": null
+    },
+    {
+      "key": "alt+<",
+      "ifMode": "math",
+      "command": [
+        "insert",
+        "\\Bra{#@}"
+      ]
+    },
+    {
+      "key": "ctrl+alt+>",
+      "ifMode": "math",
+      "command": [
+        "insert",
+        "\\Braket{#@}"
+      ]
+    },
+    {
+      "key": "alt+>",
+      "ifMode": "math",
+      "command": [
+        "insert",
+        "\\Ket{#@}"
+      ]
+    }
+  ],
+  "inlineShortcuts": {
+    "@a": "\\alpha",
+    "@A": "\\Alpha",
+    "@b": "\\beta",
+    "@B": "\\Beta",
+    "@c": "\\chi",
+    "@C": "\\Chi",
+    "@d": "\\delta",
+    "@D": "\\Delta",
+    "@e": "\\epsilon",
+    "@E": "\\Epsilon",
+    "eps": "\\varepsilon",
+    ":E": "\\mathcal{E}",
+    "@f": "\\phi",
+    "@F": "\\Phi",
+    ":f": "\\varphi",
+    "@g": "\\gamma",
+    "@G": "\\Gamma",
+    "@h": "\\eta",
+    "@H": "\\eta",
+    "@k": "\\kappa",
+    "@K": "\\kappa",
+    "@l": "\\lambda",
+    "@L": "\\Lambda",
+    "@m": "\\mu",
+    "@M": "\\mu",
+    "@n": "\\nu",
+    "@N": "\\nu",
+    "@o": "\\omega",
+    "@O": "\\Omega",
+    "@r": "\\rho",
+    "@R": "\\rho",
+    "@s": "\\sigma",
+    "@S": "\\Sigma",
+    "@t": "\\tau",
+    "@T": "\\tau",
+    "@u": "\\upsilon",
+    "@U": "\\Upsilon",
+    "ome": "\\omega",
+    "Ome": "\\Omega",
+    "@v": "\\theta",
+    "@V": "\\Theta",
+    "@y": "\\psi",
+    "@Y": "\\Psi",
+    "@x": "\\xi",
+    "@X": "\\Xi",
+    "@z": "\\zeta",
+    "@Z": "\\zeta",
+    "//": "\\frac{#?}{#?}",
+    "sqrt": "\\sqrt{#?}",
+    "<>": "\\langle #?\\rangle",
+    ">>": "\\gg",
+    "<<": "\\ll",
+    ">=": "\\ge",
+    "<=": "\\le",
+    "{": "\\{#?\\}",
+    "[": "[#?]",
+    "(": "(#?)",
+    "*": "\\cdot",
+    "...": "\\cdots",
+    "trace": "\\mathrm{Tr}",
+    "det": "\\det",
+    "re": "\\mathrm{Re}",
+    "im": "\\mathrm{Im}",
+    "bar": "\\bar{#?}",
+    "vec": "\\vect{#?}",
+    "hat": "\\hat{#?}",
+    "dot": "\\dot{#?}",
+    "oo": "\\infty",
+    "ii": "\\imaginaryI",
+    "ee": "\\exponentialE^{#?}",
+    "ei": "\\exponentialE^{\\imaginaryI #?}",
+    "hba": "\\hbar",
+    "align": "\\begin{align*}\n#? &= #? \\\\\n #? &= #?\\end{align*}",
+    "cases": "\\begin{cases}\n#? & #? \\\\\n #? & #?\\end{cases}",
+    "pmat": "\\begin{pmatrix} #? \\end{pmatrix}",
+    "bmat": "\\begin{bmatrix} #? \\end{bmatrix}",
+    "Bmat": "\\begin{Bmatrix} #? \\end{Bmatrix}",
+    "mat": "\\begin{matrix} #? \\end{matrix}",
+    "vmat": "\\begin{vmatrix} #? \\end{vmatrix}",
+    "Vmat": "\\begin{Vmatrix} #? \\end{Vmatrix}",
+    "unit": "\\mathrm{\\left[ #? \\right]}"
+  },
+  "macros": {
+    "phase": {
+      "def": "\\enclose{phasorangle}{#1}",
+      "args": 1,
+      "captureSelection": false,
+      "expand": false
+    },
+    "ftt": {
+      "def": "\\circ\\hspace{-4pt} - \\hspace{-2pt}\\bullet",
+      "args": 0,
+      "captureSelection": false,
+      "expand": false
+    },
+    "ttf": {
+      "def": "\\bullet\\hspace{-4pt} - \\hspace{-2pt}\\circ",
+      "args": 0,
+      "captureSelection": false,
+      "expand": false
+    },
+    "gdefred": {
+      "def": "\\gdef\\red{#e5484d}",
+      "args": 0,
+      "captureSelection": false,
+      "expand": false
+    },
+    "gdefyellow": {
+      "def": "\\gdef\\yellow{#e5bf34}",
+      "args": 0,
+      "captureSelection": false,
+      "expand": false
+    },
+    "gdefgreen": {
+      "def": "\\gdef\\green{#30a46c}",
+      "args": 0,
+      "captureSelection": false,
+      "expand": false
+    },
+    "gdefgray": {
+      "def": "\\gdef\\gray{#707070}",
+      "args": 0,
+      "captureSelection": false,
+      "expand": false
+    },
+    "gdefblue": {
+      "def": "\\gdef\\blue{#0091ff}",
+      "args": 0,
+      "captureSelection": false,
+      "expand": false
+    },
+    "gdefpurple": {
+      "def": "\\gdef\\purple{#8e4ec6}",
+      "args": 0,
+      "captureSelection": false,
+      "expand": false
+    },
+    "gdefpink": {
+      "def": "\\gdef\\pink{#d6409f}",
+      "args": 0,
+      "captureSelection": false,
+      "expand": false
+    },
+    "bgred": {
+      "def": "\\gdefred \\hspace{-0.2em}\\colorbox{\\red}{$\\displaystyle #1$} \\hspace{-0.2em}",
+      "args": 1,
+      "captureSelection": false,
+      "expand": false
+    },
+    "bgyellow": {
+      "def": "\\gdefyellow \\hspace{-0.2em}\\colorbox{\\yellow}{$\\displaystyle #1$} \\hspace{-0.2em}",
+      "args": 1,
+      "captureSelection": false,
+      "expand": false
+    },
+    "bggreen": {
+      "def": "\\gdefgreen \\hspace{-0.2em}\\colorbox{\\green}{$\\displaystyle #1$} \\hspace{-0.2em}",
+      "args": 1,
+      "captureSelection": false,
+      "expand": false
+    },
+    "bggray": {
+      "def": "\\gdefgray \\hspace{-0.2em}\\colorbox{\\gray}{$\\displaystyle #1$} \\hspace{-0.2em}",
+      "args": 1,
+      "captureSelection": false,
+      "expand": false
+    },
+    "bgblue": {
+      "def": "\\gdefblue \\hspace{-0.2em}\\colorbox{\\blue}{$\\displaystyle #1$} \\hspace{-0.2em}",
+      "args": 1,
+      "captureSelection": false,
+      "expand": false
+    },
+    "bgpurple": {
+      "def": "\\gdefpurple \\hspace{-0.2em}\\colorbox{\\purple}{$\\displaystyle #1$} \\hspace{-0.2em}",
+      "args": 1,
+      "captureSelection": false,
+      "expand": false
+    },
+    "bgpink": {
+      "def": "\\gdefpink \\hspace{-0.2em}\\colorbox{\\pink}{$\\displaystyle #1$} \\hspace{-0.2em}",
+      "args": 1,
+      "captureSelection": false,
+      "expand": false
+    },
+    "opn": {
+      "def": "\\operatorname*{#1}",
+      "args": 1,
+      "captureSelection": false,
+      "expand": false
+    },
+    "oldvect": {
+      "def": "\\stackrel{\\bm{\\rightharpoonup}}{#1}",
+      "args": 1,
+      "captureSelection": false,
+      "expand": false
+    },
+    "vect": {
+      "def": "\\overrightharpoon{#1}",
+      "args": 1,
+      "captureSelection": false,
+      "expand": false
+    }
+  },
+  "disableDefaultShortcuts": true,
+  "disabled": false
+}

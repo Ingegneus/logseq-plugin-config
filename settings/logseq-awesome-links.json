@@ -1,0 +1,20 @@
+{
+  "promoAwesomeStyler": false,
+  "externalHeading": null,
+  "faviconsEnabled": true,
+  "inheritExtColor": false,
+  "internalHeading": null,
+  "pageIconsEnabled": true,
+  "inheritingHeading": null,
+  "inheritFromProp": "inherit-color-icon-from",
+  "inheritFromHierarchy": true,
+  "dafaultPropsHeading": null,
+  "defaultPageProps": "icon:: 🏷",
+  "defaultJournalProps": "icon:: 📆",
+  "iconsFontHeading": null,
+  "iconFont": "none",
+  "otherHeading": null,
+  "fixLowContrast": false,
+  "featureUpdaterEnabled": true,
+  "disabled": false
+}

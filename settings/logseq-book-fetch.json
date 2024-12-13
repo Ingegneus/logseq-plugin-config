@@ -1,0 +1,4 @@
+{
+  "template": "- ![Book Cover]({{thumbnail}})\n- Title: {{title}}\n- ISBN: {{isbn}}\n- Authors: {{authors}}\n- Published At: {{publishedAt}}\n- Categories: {{categories}}\n- Pages: {{pages}}\n- Language: {{language}}\n- Publisher: {{publisher}}\n- Maturity Rating: {{maturityRating}}\n- Description: {{description}}",
+  "disabled": false
+}

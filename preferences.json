@@ -1,0 +1,22 @@
+{
+  "theme": null,
+  "themes": {
+    "mode": "dark",
+    "light": null,
+    "dark": null
+  },
+  "externals": [],
+  "pinnedToolbarItems": [
+    "logseq-graph-analysis:logseq-graph-analysis",
+    "logseq-save-scrollbar-position:back-to-top",
+    "logseq-journals-calendar:open-calendar",
+    "logseq-todo-plugin:logseq-plugin-todo",
+    "logseq-anki-sync:logseq-anki-sync",
+    "logseq-doc:doc-view-exporter",
+    "logseq-tags:tags-plugin-open",
+    "logseq-awesome-styler:AwesomeStyler",
+    "logseq-git:git",
+    "logseq-calendars-plugin:open-calendar2",
+    "logseq-pdf-export-plugin:logseq-pdf-export-plugin"
+  ]
+}
