@@ -7,6 +7,6 @@ der folder den du suchst ist bei
 nun öffnest du ein terminal und machst:  
 `cd C:\Users\User\.logseq`  
 danach  
-`git clone https://github.com/Ingegneus/logseq-plugin-config`  
+`git clone https://github.com/Ingegneus/logseq-plugin-config.git`  
 
 nun musst du den gesamten inhalt von `.\logseq-plugin-config` in `C:\Users\User\.logseq` verschieben. danach kannst du den ordner löschen. 
