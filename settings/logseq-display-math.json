@@ -1,7 +1,7 @@
 {
   "macros": {
-    "\\ftt": "\\circ\\hspace{-4pt} - \\hspace{-2pt}\\bullet",
-    "\\ttf": "\\bullet\\hspace{-4pt} - \\hspace{-2pt}\\circ",
+    "\\ftt": "\\circ\\hspace{-.4em} - \\hspace{-.4em} - \\hspace{-.4em}\\bullet",
+    "\\ttf": "\\bullet\\hspace{-.4em} - \\hspace{-.4em} - \\hspace{-.4em}\\circ",
     "\\gdefred": "\\gdef\\red{#e5484d}",
     "\\gdefyellow": "\\gdef\\yellow{#e5bf34}",
     "\\gdefgreen": "\\gdef\\green{#30a46c}",
@@ -9,16 +9,17 @@
     "\\gdefblue": "\\gdef\\blue{#0091ff}",
     "\\gdefpurple": "\\gdef\\purple{#8e4ec6}",
     "\\gdefpink": "\\gdef\\pink{#d6409f}",
-    "\\bgred": "\\gdefred \\hspace{-0.2em}\\colorbox{\\red}{$\\displaystyle #1$} \\hspace{-0.2em}",
-    "\\bgyellow": "\\gdefyellow \\hspace{-0.2em}\\colorbox{\\yellow}{$\\displaystyle #1$} \\hspace{-0.2em}",
-    "\\bggreen": "\\gdefgreen \\hspace{-0.2em}\\colorbox{\\green}{$\\displaystyle #1$} \\hspace{-0.2em}",
-    "\\bggray": "\\gdefgray \\hspace{-0.2em}\\colorbox{\\gray}{$\\displaystyle #1$} \\hspace{-0.2em}",
-    "\\bgblue": "\\gdefblue \\hspace{-0.2em}\\colorbox{\\blue}{$\\displaystyle #1$} \\hspace{-0.2em}",
-    "\\bgpurple": "\\gdefpurple \\hspace{-0.2em}\\colorbox{\\purple}{$\\displaystyle #1$} \\hspace{-0.2em}",
-    "\\bgpink": "\\gdefpink \\hspace{-0.2em}\\colorbox{\\pink}{$\\displaystyle #1$} \\hspace{-0.2em}",
+    "\\gdefc": "\\gdefred \\gdefyellow \\gdefgreen \\gdefgray \\gdefblue \\gdefpurple \\gdefpink",
+    "\\bg": "\\gdefc \\hspace{-0.2em}\\colorbox{#1}{$\\displaystyle #2$} \\hspace{-0.2em}",
     "\\opn": "\\operatorname*{#1}",
     "\\oldvect": "\\stackrel{\\bm{\\rightharpoonup}}{#1}",
-    "\\vect": "\\overrightharpoon{#1}"
+    "\\vect": "\\overrightharpoon{#1}",
+    "\\dif": "\\frac{\\opn{d}}{\\opn{d}#1}",
+    "\\diff": "\\frac{\\opn{d}^2}{\\opn{d}#1^2}",
+    "\\pdif": "\\frac{\\partial}{\\partial #1}",
+    "\\pdiff": "\\frac{\\partial^2}{\\partial #1^2}",
+    "\\cc": "\\gdefc \\color{#1} \\cancel{\\color{white}{#2}} \\color{white}",
+    "\\op": "\\quad \\color {gray} {\\left/ #1\\right.}"
   },
   "preferDisplay": true,
   "disabled": false

@@ -197,13 +197,13 @@
       "expand": false
     },
     "ftt": {
-      "def": "\\circ\\hspace{-4pt} - \\hspace{-2pt}\\bullet",
+      "def": "\\circ\\hspace{-.4em} - \\hspace{-.4em} - \\hspace{-.4em}\\bullet",
       "args": 0,
       "captureSelection": false,
       "expand": false
     },
     "ttf": {
-      "def": "\\bullet\\hspace{-4pt} - \\hspace{-2pt}\\circ",
+      "def": "\\bullet\\hspace{-.2em} - \\hspace{-.4em} - \\hspace{-.4em}\\circ",
       "args": 0,
       "captureSelection": false,
       "expand": false
@@ -307,6 +307,36 @@
     "vect": {
       "def": "\\overrightharpoon{#1}",
       "args": 1,
+      "captureSelection": false,
+      "expand": false
+    },
+    "dif": {
+      "def": "\\frac{\\opn{d}}{\\opn{d}#1}",
+      "args": 1,
+      "captureSelection": false,
+      "expand": false
+    },
+    "diff": {
+      "def": "\\frac{\\opn{d}^2}{\\opn{d}#1^2}",
+      "args": 1,
+      "captureSelection": false,
+      "expand": false
+    },
+    "pdif": {
+      "def": "\\frac{\\partial}{\\partial #1}",
+      "args": 1,
+      "captureSelection": false,
+      "expand": false
+    },
+    "pdiff": {
+      "def": "\\frac{\\partial^2}{\\partial #1^2}",
+      "args": 1,
+      "captureSelection": false,
+      "expand": false
+    },
+    "cc": {
+      "def": "\\color{#1} \\cancel{\\color{white}{#2}} \\color{white}",
+      "args": 2,
       "captureSelection": false,
       "expand": false
     }

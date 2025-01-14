@@ -7,7 +7,7 @@
   "pageIconsEnabled": true,
   "inheritingHeading": null,
   "inheritFromProp": "inherit-color-icon-from",
-  "inheritFromHierarchy": true,
+  "inheritFromHierarchy": false,
   "dafaultPropsHeading": null,
   "defaultPageProps": "icon:: 🏷",
   "defaultJournalProps": "icon:: 📆",

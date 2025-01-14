@@ -1,6 +1,6 @@
 {
   "host": "localhost:11434",
-  "model": "llama3.2",
+  "model": "mistral:instruct",
   "shortcut": "mod+shift+o",
   "custom_prompt_block": "",
   "disabled": false
